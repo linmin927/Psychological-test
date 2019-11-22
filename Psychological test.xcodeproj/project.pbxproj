@@ -13,6 +13,8 @@
 		A28817CE2387BA2400538575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28817CC2387BA2400538575 /* Main.storyboard */; };
 		A28817D02387BA2600538575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28817CF2387BA2600538575 /* Assets.xcassets */; };
 		A28817D32387BA2600538575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28817D12387BA2600538575 /* LaunchScreen.storyboard */; };
+		A28817DD2387C03100538575 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28817DC2387C03100538575 /* Question.swift */; };
+		A28817DF2387C1A900538575 /* QuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28817DE2387C1A900538575 /* QuesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A28817CF2387BA2600538575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28817D22387BA2600538575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28817D42387BA2600538575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28817DC2387C03100538575 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A28817DE2387C1A900538575 /* QuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A28817C82387BA2400538575 /* SceneDelegate.swift */,
 				A28817CA2387BA2400538575 /* ViewController.swift */,
 				A28817CC2387BA2400538575 /* Main.storyboard */,
+				A28817DE2387C1A900538575 /* QuesViewController.swift */,
+				A28817DC2387C03100538575 /* Question.swift */,
 				A28817CF2387BA2600538575 /* Assets.xcassets */,
 				A28817D12387BA2600538575 /* LaunchScreen.storyboard */,
 				A28817D42387BA2600538575 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A28817CB2387BA2400538575 /* ViewController.swift in Sources */,
+				A28817DD2387C03100538575 /* Question.swift in Sources */,
+				A28817DF2387C1A900538575 /* QuesViewController.swift in Sources */,
 				A28817C72387BA2400538575 /* AppDelegate.swift in Sources */,
 				A28817C92387BA2400538575 /* SceneDelegate.swift in Sources */,
 			);
